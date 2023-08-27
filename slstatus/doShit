@@ -1,0 +1,5 @@
+#!/bin/bash
+
+rm -rf config.h 
+sudo make install
+killall slstatus
